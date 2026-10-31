@@ -119,3 +119,47 @@ console.log(parseFloat(fuel2)); // Output: 142
 
 const thrustforce = 4.624;
 console.log(Math.round(thrustforce)); // Output: 5
+
+
+//string
+
+const message1 = "Hello, World!";
+
+const message2 = String("Hello, World!");
+
+const message3 = new String("Hello, World!"); // This creates a String object, not a primitive string.
+
+const templateLiteral = `Hello, ${name}!`; // This is a template literal, which allows for string interpolation and multi-line strings.
+
+console.log(message1);
+
+//silent fail in string
+
+let interceptedMessage = "Hello, World!";
+interceptedMessage[0] = "h"; // This will not change the string, as strings are immutable in JavaScript.
+console.log(interceptedMessage); // Output: Hello, World!
+
+
+//string methods
+
+const str = "Hello, World!";
+console.log(str.length); // Output: 13
+console.log(str.toUpperCase()); // Output: HELLO, WORLD!
+console.log(str.toLowerCase()); // Output: hello, world!
+console.log(str.indexOf("World")); // Output: 7
+console.log(str.slice(0, 5)); // Output: Hello
+console.log(str.replace("World", "Universe")); // Output: Hello, Universe!
+console.log(str.split(", ")); // Output: [ 'Hello', 'World!' ]
+console.log(str.includes("Hello")); // Output: true
+
+console.log(str.charAt(0)); // Output: H
+console.log(str.charCodeAt(0)); // Output: 72
+console.log(str.charAt(999)); // Output: '' (empty string, as the index is out of bounds)
+
+
+console.log(void "Hello, World!"); // Output: undefined
+//what happen when we do null or undefined in JavaScript? null is a primitive value that represents the intentional absence of any object value. It is often used to indicate that a variable has no value or that an object property does not exist. undefined is a primitive value that represents the absence of a value or the uninitialized state of a variable. It is often used to indicate that a variable has not been assigned a value or that a function does not return a value.null is preferd over undefined, as it is more explicit and intentional. undefined can be caused by uninitialized variables or missing function return values, which can lead to unexpected behavior in your code. Using null can help to avoid these issues and make your code more predictable and easier to understand.
+
+
+//conditional
+

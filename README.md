@@ -1,40 +1,57 @@
 # JavaScript Learning Journey
 
-This project is a beginner-friendly JavaScript learning workspace.
+This repository is a beginner-friendly practice workspace for learning JavaScript fundamentals with Node.js.
 
-## What I am learning
+## Overview
 
-- JavaScript basics
-- Variables and data types
-- Console output
-- Functions and logic
-- Working with Node.js to run JavaScript files
-- Basic programming concepts
+The goal of this project is to build confidence in core JavaScript concepts by writing, running, and experimenting with small code examples. It is designed for step-by-step learning and revision.
 
-## Project files
+## Project Structure
 
-- `class01.js` — simple JavaScript examples and basic output
-- `package.json` — project configuration for the JavaScript app
+- `class01.js` — basic JavaScript examples covering console methods, variables, data types, objects, strings, and number handling
+- `package.json` — project metadata and script configuration
+- `README.md` — project overview and usage instructions
 
-## Run a JavaScript file
+## Prerequisites
 
-From the project folder, use:
+Make sure you have Node.js installed on your machine.
+
+Check the version:
+
+```bash
+node -v
+```
+
+## Getting Started
+
+From the project root, run:
 
 ```bash
 node class01.js
 ```
 
-This will execute the JavaScript file and display the output in the terminal.
+This executes the JavaScript file and prints the examples to the terminal.
 
-## Goals
+## Topics Covered
 
-Build confidence in:
+- Variables: `var`, `let`, and `const`
+- Primitive and reference data types
+- Objects and copying techniques
+- String methods and template literals
+- Number conversion and math operations
+- Console debugging methods like `console.log()`, `console.count()`, and `console.time()`
+- Basic JavaScript syntax and best practices
 
-- writing JavaScript code
-- understanding how JavaScript runs
-- using Node.js for execution
-- practicing small coding exercises step by step
+## Learning Goals
+
+By working through this project, you can practice:
+
+- writing JavaScript syntax correctly
+- understanding how JavaScript values are stored and used
+- using Node.js to run JavaScript files
+- debugging code with console output
+- building a strong foundation before moving to more advanced topics
 
 ## Notes
 
-This repository is for learning and experimentation. Each file can be used to practice different JavaScript topics as the learning progresses.
+This repository is intended for learning, experimentation, and practice. Each file can be expanded as new JavaScript topics are introduced.
